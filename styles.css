@@ -1,0 +1,29 @@
+html {
+  background-color: gray;
+}
+
+.main {
+  background-color: gray;
+}
+
+.jackpot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.jackpot__title {
+  display: block;
+  border: 1px;
+  color: #fff;
+}
+
+.jackpot__number {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  background-color: #000;
+  font-weight: bold;
+}
